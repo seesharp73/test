@@ -1,0 +1,26 @@
+name: GitHub Actions Demo
+on: 
+  push:
+    branches: [main]
+    paths-ignore: [.github/**]
+  pull_request:
+    branches: [main]
+  schedule:
+  - cron: "15 6 * * 0"
+  workflow_dispatch:
+jobs:
+  my_job:
+    name: deploy to staging
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+        echo ""
+        echo ""
+      - users:
+      - name:
+        run: |
+          echo ""
+    
+    
+    
+    
